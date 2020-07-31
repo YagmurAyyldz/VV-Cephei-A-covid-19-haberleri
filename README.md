@@ -3,7 +3,7 @@ Covid-19 ile ilgili Türkiye ve dünya gündeminde yayınlanmış olan haberleri
 #
 This project is providing news and news summaries to users who have posted on the website Turkey and the world wide.
 </br>
-# Installing
+# Kurulum (Installing)
 Projeyi **Zip** olarak veya cmd ekranınıza `git clone https://github.com/YagmurAyyldz/AcikHack_NLP.git` yazarak **Clone** olarak indirebilirsiniz.
 Projeyi indirdikten sonra kurmanız gereken kütüphaneleri aşağıdaki komutu cmd komut ekranına yazarak kolayca kurabilirsiniz. Ek olarak **nltk** kütüphanesinin uyumlu sürümünü kullanmak için [nltk indirme linki](http://www.nltk.org/install.html) size yardımcı olacaktır.
 Kütüphaneleri manuel olarak kendiniz kurabilirsiniz veya cmd komut ekranına aşağıdaki komutu yazarak da kurulumları gerçekleştirebilirsiniz.
