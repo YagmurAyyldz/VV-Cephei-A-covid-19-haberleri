@@ -43,9 +43,6 @@ BBC News Haber Özetleri
 | beautifulsoup4 | pip install beautifulsoup4|
 
 
-# Deployment 
-Add additional notes about how to deploy this on a live system
-
 # Geliştiriciler
 | Geliştiriciler | İletişim Adresleri |
 | --- | --- |
