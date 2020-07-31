@@ -1,4 +1,4 @@
-# Acıkhack2-keepmoving-covid-19-haberleri
+# Acıkhack2- VV Cephei A-covid-19-haberleri
 Covid-19 ile ilgili Türkiye ve dünya gündeminde yayınlanmış olan haberleri ve haber özetlerini kullanıcıya sunan web sitesi.</br>
 #
 This project is providing news and news summaries to users who have posted on the website Turkey and the world wide.
@@ -9,7 +9,7 @@ Projeyi indirdikten sonra kurmanız gereken kütüphaneleri aşağıdaki komutu 
 Kütüphaneleri manuel olarak kendiniz kurabilirsiniz veya cmd komut ekranına aşağıdaki komutu yazarak da kurulumları gerçekleştirebilirsiniz.
 </br> 
 #
-You can download the project as ** Zip ** or ** Clone ** by typing `git clone https: // github.com / YagmurAyyldz / AcikHack_NLP.git` on your cmd screen.
+You can download the project as **Zip** or **Clone** by typing `git clone https: // github.com / YagmurAyyldz / AcikHack_NLP.git` on your cmd screen.
 After downloading the project, you can easily install the libraries you need to install by typing the command below on the cmd command screen. Additionally, the [nltk download link](http://www.nltk.org/install.html) will help you to use the compatible version of the **nltk** library. 
 </br>
 You can install the libraries manually or you can do the installation by typing the following command on the cmd command screen.
@@ -46,8 +46,8 @@ BBC News Haber Özetleri
 Add additional notes about how to deploy this on a live system
 
 # Geliştiriciler
-| Geliştiriciler | İletişim Adresleri |
-| --- | --- |
+|Ekip Lideri| Geliştiriciler | İletişim Adresleri |
+|| --- | --- |
 |  [Yağmur AYYILDIZ](https://github.com/YagmurAyyldz) |   ayagmurayyildiz@gmail.com |
 |  [İlknur İMAMHALİLOĞLU](https://github.com/ilknurimamhaliloglu)| ilknurimamhaliloglu@gmail.com|
 |  [Hatice AKSOY](https://github.com/HaticeAksoy)|  hatice.782.aksoy@gmail.com|
