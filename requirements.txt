@@ -1,5 +1,6 @@
 nltk
 math
+numpy
 Flask
 requests
 beautifulsoup4
