@@ -5,7 +5,7 @@ This project is providing news and news summaries to users who have posted on th
 </br>
 # Kurulum (Installing)
 Projeyi **Zip** olarak veya cmd ekranınıza `git clone https://github.com/YagmurAyyldz/AcikHack_NLP.git` yazarak **Clone** olarak indirebilirsiniz.
-Projeyi indirdikten sonra kurmanız gereken kütüphaneleri aşağıdaki komutu cmd komut ekranına yazarak kolayca kurabilirsiniz. Ek olarak **nltk** kütüphanesinin uyumlu sürümünü kullanmak için [nltk indirme linki](http://www.nltk.org/install.html) size yardımcı olacaktır.
+Projeyi indirdikten sonra kurmanız gereken kütüphaneleri aşağıdaki komutu cmd komut ekranına yazarak kolayca kurabilirsiniz. Ek olarak **nltk** kütüphanesinin uyumlu sürümünü kullanmak için [nltk indirme linki](http://www.nltk.org/install.html) size yardımcı olacaktır. Projenin Web ortamında çalışması için Flask kütüphanesinin kurulması gerekmektedir. Kolay kurulum için [Flusk linkinden](https://pypi.org/project/Flask/) yararlanabilirsiniz.
 Kütüphaneleri manuel olarak kendiniz kurabilirsiniz veya cmd komut ekranına aşağıdaki komutu yazarak da kurulumları gerçekleştirebilirsiniz.
 </br> 
 #
@@ -37,6 +37,7 @@ BBC News Haber Özetleri
 | Python  |  www.python.org |
 | nltk | pip install nltk==3.5  |
 | math |pip install maths |
+| numpy | pip install numpy |
 | Flask | https://pypi.org/project/Flask/|
 | requests | pip install requests |
 | beautifulsoup4 | pip install beautifulsoup4|
