@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BBC News</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+        .row.content {
+            height: 100%;
+        }
+
+        /* Set gray background color and 100% height */
+
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+
+    </style>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* Position the navbar container inside the image */
+        .containera {
+            position: absolute;
+            margin: 20px;
+            width: auto;
+            box-shadow: 5px 5px 15px 3px black;
+        }
+
+        /* The navbar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            /* Navbar links */
+            .topnav a {
+                float: left;
+                color: azure;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: black;
+                    color: red;
+                }
+    </style>
+
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 200px;
+            float: left;
+            margin: 3px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+    </style>
+    <!-- sayfa arkaplan rengi-->
+    <style>
+        .back {
+            background-image: url(https://ilgiliforum.com/resim/2015/01/11/108431_slayt_arka_planlari_beyaz_3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+   <style>
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            padding-top: 50px;
+        }
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+                padding-left: 10px;
+            }
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #151c16fc;
+                color: white;
+            }
+    </style>
+
+    <!--Box Shadow-->
+    <style>
+        .golge {
+            box-shadow: 5px 5px 15px 3px black;
+        }
+    </style>
+
+    <!--Haber Divleri -->
+    <style>
+        .A {
+            text-decoration: none;
+            background-color: #141f27;
+            color: white;
+            padding: 4px 8px;
+            font-size: 14px;
+        }
+        .Ah3{
+            font-size: 28px;
+            text-align:center;
+            padding-top: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+    </style>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 1550px;
+        height: 350px;
+    }
+    </style>
+</head>
+
+<body class="back">
+    <header>
+        <nav class="navbar-expand-sm navbar-light bg-white border-bottom box-shadow ">
+            <div class="pl-md-4">
+                <div class="containera ">
+                    <div class="topnav">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="home.html">Ana Sayfa</a></li>
+                            <li><a href="hurriyet.html">Hürriyet Gazetesi</a></li>
+                            <li><a href="milliyet.html">Milliyet Gazetesi</a></li>
+                            <li><a href="sabah.html">Sabah Gazetesi</a></li>
+                            <li><a href="bbc.html">Dünyadan Haberler</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div style="padding-top: 80px">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <a href="home.html"><img src="https://kayseritecsen.org/wp-content/uploads/2017/02/sondakika.png" width="1550px" height="50%"></a>
+              </div>
+              <div class="carousel-item">
+                  <a href="hurriyet.html"><img src="https://2deroj25v8qu2o5mtq1fox5r-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Hurriyet-Logo.jpg" width="100%" height="50%"></a>
+              </div>
+              <div class="carousel-item">
+               <a href="milliyet.html"> <img src="http://www.basinbulteni.com/sirket_logos/milliyet_gazetesi_logo_amblemi.jpg" width="100%" height="50%"></a>
+              </div>
+                <div class="carousel-item">
+                <a href="sabah.html"><img src="https://i.pinimg.com/originals/64/6c/57/646c5778cb2613cb7afc9984e852efea.png" width="100%" height="50%"></a>
+              </div>
+                <div class="carousel-item">
+                <a href="bbc.html"><img src="https://izciler.com.tr/upload/dosya/covit19-korona_15e9052dd4573f.jpg" width="1550px" height="350px"></a>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <h1 class="" style="text-align:center;  text-shadow: 3px 2px 1px black;"><strong>Dünyadan Haberler</strong></h1>
+    <section class="container">
+        <section class="row">
+            <!--Haber Sayfası-->
+            <section class="col-sm-7 pt-5" style="width:60%; height:100%; float:left">
+                <section>
+                    <h2 class=""><small>Dünya Koronavirüs Durumu</small></h2>
+                    <div class="row pl-md-3" style="width:100%;padding-left: 10px">
+                        <div class="card">
+                            <h3>
+                                <b>{{ world_covid_datas[0] }}</b>
+                            </h3>
+                            <p style="font-size: 15px">Onaylanmış vaka</p>
+                        </div>
+                        <div class="card">
+                            <h3>
+                                <b>{{ world_covid_datas[1] }}</b>
+                            </h3>
+                            <p style="font-size: 15px">İyileşen</p>
+                        </div>
+                        <div class="card">
+                            <h3>
+                                <b>{{ world_covid_datas[2] }}</b>
+                            </h3>
+                            <p style="font-size: 15px">Ölüm</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="pb-md-5" style="height:100%; margin-top:10px; padding-bottom: 40px">
+                    <h2><small>Ülkelere Göre Koronavirüs Tablosu</small></h2>
+                    <table id="customers">
+                        <tr>
+                            <th>
+                                KONUM
+                            </th>
+                            <th>
+                                ONAYLANMIŞ VAKA
+                            </th>
+                            <th>
+                                1 MİLYON KİŞİ BAŞINA VAKA SAYISI
+                            </th>
+                            <th>
+                                İYİLEŞEN
+                            </th>
+                            <th>
+                                ÖLÜM
+                            </th>
+                        </tr>
+                        {% for country_data in country_datas %}
+                            <tr>
+                                <td>{{ country_data[0] }}</td>
+                                <td>{{ country_data[1] }}</td>
+                                <td>{{ country_data[2] }}</td>
+                                <td>{{ country_data[3] }}</td>
+                                <td>{{ country_data[4] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </section>
+
+            </section>
+
+            <!--Twitter-->
+            <section class="col-sm-4 pl-md-2" style="margin-top:100px; width:40%; height:50%; float:left; background:none;">
+                <a class="twitter-timeline" data-width="500" data-height="1000" data-theme="dark" href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">Tweets by WHO</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </section>
+
+        </section>
+
+        <section style="padding-bottom: 20px">
+            <h1 class="pt-5" style="text-align:center;  text-shadow: 1px 1px 1px black;"><strong>BBC News Haber Özetleri</strong></h1>
+                {% for i in range(0, length) %}
+                    <hr>
+                    <div class="p-3 golge">
+                        <h3 class="Ah3">{{ bbc_h1[i] }}</h3>
+                        <p style="padding-top: 10px; padding-left: 25px; padding-right: 25px; text-align:justify; font-size: 15px">
+                            {{ last_bbc_summary[i] }}
+                        </p>
+                        <div class=" pr-4" style="text-align:right;">
+                            <a class="A" href={{ last_bbc_url[i]}} >Haberin Tamamını Gör &#8594;</a>
+                        </div>
+                    </div>
+                {% endfor %}
+        </section>
+    </section>
+
+    <section class="row container-fluid p-2" style="width:100%; background-color:#333">
+        <div class="container pl-5" style="color:white;">
+            © 2020 KeepMoving VV Cephei A. All rights reserved.
+        </div>
+    </section>
+</body>
+</html>
