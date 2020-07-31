@@ -46,8 +46,8 @@ BBC News Haber Özetleri
 Add additional notes about how to deploy this on a live system
 
 # Geliştiriciler
-|Ekip Lideri| Geliştiriciler | İletişim Adresleri |
-|| --- | --- |
+| Geliştiriciler | İletişim Adresleri |
+| --- | --- |
 |  [Yağmur AYYILDIZ](https://github.com/YagmurAyyldz) |   ayagmurayyildiz@gmail.com |
 |  [İlknur İMAMHALİLOĞLU](https://github.com/ilknurimamhaliloglu)| ilknurimamhaliloglu@gmail.com|
 |  [Hatice AKSOY](https://github.com/HaticeAksoy)|  hatice.782.aksoy@gmail.com|
