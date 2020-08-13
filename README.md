@@ -42,6 +42,9 @@ BBC News Haber Özetleri
 | requests | pip install requests |
 | beautifulsoup4 | pip install beautifulsoup4|
 
+# Demo Linki
+https://drive.google.com/file/d/1trPaavRziMhiIGp3dx_eeFXSGyHI6QVy/view?usp=sharing
+
 
 # Geliştiriciler
 || Geliştiriciler | İletişim Adresleri |
